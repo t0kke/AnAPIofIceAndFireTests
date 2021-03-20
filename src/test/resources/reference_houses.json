@@ -1,0 +1,217 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1616157130.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "url",
+    "name",
+    "region",
+    "coatOfArms",
+    "words",
+    "titles",
+    "seats",
+    "currentLord",
+    "heir",
+    "overlord",
+    "founded",
+    "founder",
+    "diedOut",
+    "ancestralWeapons",
+    "cadetBranches",
+    "swornMembers"
+  ],
+  "properties": {
+    "url": {
+      "$id": "#root/url",
+      "title": "Url",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "https://anapioficeandfire.com/api/houses/378"
+      ],
+      "pattern": "^.*$"
+    },
+    "name": {
+      "$id": "#root/name",
+      "title": "Name",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "House Targaryen of King's Landing"
+      ],
+      "pattern": "^.*$"
+    },
+    "region": {
+      "$id": "#root/region",
+      "title": "Region",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "The Crownlands"
+      ],
+      "pattern": "^.*$"
+    },
+    "coatOfArms": {
+      "$id": "#root/coatOfArms",
+      "title": "Coatofarms",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Sable, a dragon thrice-headed gules"
+      ],
+      "pattern": "^.*$"
+    },
+    "words": {
+      "$id": "#root/words",
+      "title": "Words",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Fire and Blood"
+      ],
+      "pattern": "^.*$"
+    },
+    "titles": {
+      "$id": "#root/titles",
+      "title": "Titles",
+      "type": "array",
+      "default": [],
+      "items": {
+        "$id": "#root/titles/items",
+        "title": "Items",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "King of the Andals, the Rhoynar and the First Men"
+        ],
+        "pattern": "^.*$"
+      }
+    },
+    "seats": {
+      "$id": "#root/seats",
+      "title": "Seats",
+      "type": "array",
+      "default": [],
+      "items": {
+        "$id": "#root/seats/items",
+        "title": "Items",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Red Keep (formerly)"
+        ],
+        "pattern": "^.*$"
+      }
+    },
+    "currentLord": {
+      "$id": "#root/currentLord",
+      "title": "Currentlord",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "https://anapioficeandfire.com/api/characters/1303"
+      ],
+      "pattern": "^.*$"
+    },
+    "heir": {
+      "$id": "#root/heir",
+      "title": "Heir",
+      "type": "string",
+      "default": "",
+      "examples": [
+        ""
+      ],
+      "pattern": "^.*$"
+    },
+    "overlord": {
+      "$id": "#root/overlord",
+      "title": "Overlord",
+      "type": "string",
+      "default": "",
+      "examples": [
+        ""
+      ],
+      "pattern": "^.*$"
+    },
+    "founded": {
+      "$id": "#root/founded",
+      "title": "Founded",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "House Targaryen: >114 BCHouse Targaryen of King's Landing:1 AC"
+      ],
+      "pattern": "^.*$"
+    },
+    "founder": {
+      "$id": "#root/founder",
+      "title": "Founder",
+      "type": "string",
+      "default": "",
+      "examples": [
+        ""
+      ],
+      "pattern": "^.*$"
+    },
+    "diedOut": {
+      "$id": "#root/diedOut",
+      "title": "Diedout",
+      "type": "string",
+      "default": "",
+      "examples": [
+        ""
+      ],
+      "pattern": "^.*$"
+    },
+    "ancestralWeapons": {
+      "$id": "#root/ancestralWeapons",
+      "title": "Ancestralweapons",
+      "type": "array",
+      "default": [],
+      "items": {
+        "$id": "#root/ancestralWeapons/items",
+        "title": "Items",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Blackfyre"
+        ],
+        "pattern": "^.*$"
+      }
+    },
+    "cadetBranches": {
+      "$id": "#root/cadetBranches",
+      "title": "Cadetbranches",
+      "type": "array",
+      "default": [],
+      "items": {
+        "$id": "#root/cadetBranches/items",
+        "title": "Items",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "https://anapioficeandfire.com/api/houses/23"
+        ],
+        "pattern": "^.*$"
+      }
+    },
+    "swornMembers": {
+      "$id": "#root/swornMembers",
+      "title": "Swornmembers",
+      "type": "array",
+      "default": [],
+      "items": {
+        "$id": "#root/swornMembers/items",
+        "title": "Items",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "https://anapioficeandfire.com/api/characters/33"
+        ],
+        "pattern": "^.*$"
+      }
+    }
+  }
+}

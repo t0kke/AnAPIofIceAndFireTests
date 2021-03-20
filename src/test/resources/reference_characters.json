@@ -1,0 +1,229 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1616156426.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "url",
+    "name",
+    "gender",
+    "culture",
+    "born",
+    "died",
+    "titles",
+    "aliases",
+    "father",
+    "mother",
+    "spouse",
+    "allegiances",
+    "books",
+    "povBooks",
+    "tvSeries",
+    "playedBy"
+  ],
+  "properties": {
+    "url": {
+      "$id": "#root/url",
+      "title": "Url",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "https://anapioficeandfire.com/api/characters/583"
+      ],
+      "pattern": "^.*$"
+    },
+    "name": {
+      "$id": "#root/name",
+      "title": "Name",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Jon Snow"
+      ],
+      "pattern": "^.*$"
+    },
+    "gender": {
+      "$id": "#root/gender",
+      "title": "Gender",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Male"
+      ],
+      "pattern": "^.*$"
+    },
+    "culture": {
+      "$id": "#root/culture",
+      "title": "Culture",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Northmen"
+      ],
+      "pattern": "^.*$"
+    },
+    "born": {
+      "$id": "#root/born",
+      "title": "Born",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "In 283 AC"
+      ],
+      "pattern": "^.*$"
+    },
+    "died": {
+      "$id": "#root/died",
+      "title": "Died",
+      "type": "string",
+      "default": "",
+      "examples": [
+        ""
+      ],
+      "pattern": "^.*$"
+    },
+    "titles": {
+      "$id": "#root/titles",
+      "title": "Titles",
+      "type": "array",
+      "default": [],
+      "items": {
+        "$id": "#root/titles/items",
+        "title": "Items",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Lord Commander of the Night's Watch"
+        ],
+        "pattern": "^.*$"
+      }
+    },
+    "aliases": {
+      "$id": "#root/aliases",
+      "title": "Aliases",
+      "type": "array",
+      "default": [],
+      "items": {
+        "$id": "#root/aliases/items",
+        "title": "Items",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Lord Snow"
+        ],
+        "pattern": "^.*$"
+      }
+    },
+    "father": {
+      "$id": "#root/father",
+      "title": "Father",
+      "type": "string",
+      "default": "",
+      "examples": [
+        ""
+      ],
+      "pattern": "^.*$"
+    },
+    "mother": {
+      "$id": "#root/mother",
+      "title": "Mother",
+      "type": "string",
+      "default": "",
+      "examples": [
+        ""
+      ],
+      "pattern": "^.*$"
+    },
+    "spouse": {
+      "$id": "#root/spouse",
+      "title": "Spouse",
+      "type": "string",
+      "default": "",
+      "examples": [
+        ""
+      ],
+      "pattern": "^.*$"
+    },
+    "allegiances": {
+      "$id": "#root/allegiances",
+      "title": "Allegiances",
+      "type": "array",
+      "default": [],
+      "items": {
+        "$id": "#root/allegiances/items",
+        "title": "Items",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "https://anapioficeandfire.com/api/houses/362"
+        ],
+        "pattern": "^.*$"
+      }
+    },
+    "books": {
+      "$id": "#root/books",
+      "title": "Books",
+      "type": "array",
+      "default": [],
+      "items": {
+        "$id": "#root/books/items",
+        "title": "Items",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "https://anapioficeandfire.com/api/books/5"
+        ],
+        "pattern": "^.*$"
+      }
+    },
+    "povBooks": {
+      "$id": "#root/povBooks",
+      "title": "Povbooks",
+      "type": "array",
+      "default": [],
+      "items": {
+        "$id": "#root/povBooks/items",
+        "title": "Items",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "https://anapioficeandfire.com/api/books/1"
+        ],
+        "pattern": "^.*$"
+      }
+    },
+    "tvSeries": {
+      "$id": "#root/tvSeries",
+      "title": "Tvseries",
+      "type": "array",
+      "default": [],
+      "items": {
+        "$id": "#root/tvSeries/items",
+        "title": "Items",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Season 1"
+        ],
+        "pattern": "^.*$"
+      }
+    },
+    "playedBy": {
+      "$id": "#root/playedBy",
+      "title": "Playedby",
+      "type": "array",
+      "default": [],
+      "items": {
+        "$id": "#root/playedBy/items",
+        "title": "Items",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Kit Harington"
+        ],
+        "pattern": "^.*$"
+      }
+    }
+  }
+}
